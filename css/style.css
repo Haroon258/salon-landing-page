@@ -1,0 +1,876 @@
+* {
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arvo', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+
+/* navbar */
+.bg {
+    background-image: url("/Accets/image/Rectangle 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.home-a {
+    color: #FBB034;
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a:hover {
+    border: 0px;
+    color: #FBB034;
+}
+
+.nav-btn {
+    padding-left: 80px;
+}
+
+.nav-btn-1 {
+    font-weight: bold;
+    height: 45px;
+    width: 140px;
+    background-color: #FBB034;
+    border: 1px solid black;
+}
+
+.nav-btn-1:hover {
+    background-color: black;
+    color: white;
+}
+
+.chopper {
+    display: flex;
+flex-wrap: wrap;
+    color: white;
+    justify-content: space-between;
+}
+
+.salon {
+    padding-left: 30px;
+}
+
+.p1 {
+    color: #FBB034;
+    padding-bottom: 20px;
+}
+
+.salon h1 {
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.book-btn {
+    padding-top: 40px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.book-btn-1 {
+    font-weight: bold;
+    height: 45px;
+    width: 140px;
+    background-color: #FBB034;
+    border: 1px solid black;
+    gap: 20px;
+}
+
+.book-btn-1:hover {
+    background-color: black;
+    color: white;
+}
+
+.book-btn-2 {
+    font-weight: bold;
+    height: 45px;
+    width: 140px;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(248, 246, 246);
+
+}
+
+.book-btn-2:hover {
+    background-color: #FBB034;
+    color: black;
+}
+
+.salon-img-1 {
+    max-width: 100%;
+}
+
+.heading {
+    font-size: 48px;
+}
+
+.paragraph {
+    font-size: 21px;
+    font-family: serif;
+    color: #9A9A9A;
+    font-weight: 400;
+}
+
+.salon-heading {
+    margin-top: 230px;
+    padding: 0px 30px;
+}
+
+.unsplash {
+    display: flex;
+    flex-shrink: 0px;
+
+}
+
+.hair-cut {
+    display: flex;
+    padding-top: 120px;
+    justify-content: space-evenly;
+
+}
+
+.unsplash {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.best a {
+    text-decoration: none;
+    color: #FBB034;
+
+}
+
+.best h1 {
+    margin-top: 30px;
+    color: black;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.5%;
+}
+
+.best p {
+    color: #565656;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106.5%;
+    margin: 10px 0px;
+}
+
+.best-btn {
+
+    padding: 10px 50px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #FBB034;
+    border: 0px solid black;
+    margin: 30px 0px;
+    height: 45px;
+}
+
+.best-btn:hover {
+    background-color: #565656;
+    color: white;
+}
+
+
+
+/* appointment */
+#appointment {
+    background-image: url(../image/Rectangle\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    padding-top: 120px;
+}
+
+.online a {
+    text-decoration: none;
+    color: #FBB034;
+}
+
+.online h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.5%;
+}
+
+.online p {
+    color: #B8B8B8;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 94.5%;
+}
+
+.appointment-btn {
+    padding: 10px 40px;
+    gap: 10px;
+    background-color: #FBB034;
+    border: 0px solid black;
+    margin: 30px 0px;
+    height: 45px;
+
+
+}
+
+.appointment-btn:hover {
+    background-color: #9A9A9A;
+    color: white;
+}
+
+.call {
+    text-align: center;
+    background-color: white;
+    height: 282px;
+    width: 320px;
+}
+
+.call-icon img {
+    margin-top: 60px;
+    border-radius: 100%;
+    background-color: #E8E8E8;
+    border: 20px solid #E8E8E8;
+}
+
+.call p {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #565656;
+}
+
+.call h3 {
+    color: black;
+}
+
+/* working days */
+
+.main_working{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 50px ;
+}
+.working {
+
+    background: #FBB034;
+
+    height: auto;
+ 
+    
+}
+.working_image>img{
+width: 100%;
+height: 100%;
+}
+
+.days {
+    padding: 40px 40px;
+}
+
+.days>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.5%;
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dotted black;
+
+}
+
+.friday {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.5%;
+}
+
+.time {
+    margin: 40px 0px;
+}
+
+.working-btn {
+    padding: 10px 40px;
+    background-color: #FBB034;
+    border: 1px solid black;
+}
+
+.working-btn:hover {
+    background-color: #E8E8E8;
+}
+
+/* client */
+.review a {
+    text-decoration: none;
+    color: #FBB034;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106.5%;
+}
+
+.review h1 {
+    padding-top: 20px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.5%;
+}
+
+.review p {
+    padding-top: 15px;
+    color: #ABABAB;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106.5%;
+}
+
+.client-btn {
+    margin-top: 30px;
+    width: 150px;
+    height: 45px;
+    background-color: #FBB034;
+    border: 0px solid black;
+}
+
+.client-btn:hover {
+    background-color: #565656;
+    color: white;
+}
+.umar-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.umar {
+    background-image: url(../image/noun-quotation-mark-376075\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 32vh;
+    padding-top: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    width: 320px;
+
+}
+
+.client {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.umar p {
+    color: #C2C2C2;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106.5%;
+}
+
+.umar-img1 {
+    padding-bottom: 20px;
+}
+
+.umar-img2 {
+    padding-top: 20px;
+}
+
+/* .joining */
+
+.joining {
+    background-image: url(../image/unsplash_NbtIDoFKGO8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.afliate {
+    max-width: 400px;
+    margin: auto;
+}
+
+.joining p {
+    color: #FBB034;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106.5%;
+}
+
+.joining h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.5%;
+}
+
+.button {
+    margin-top: 20px;
+    background: none;
+    width: 170px;
+    height: 37px;
+    border: 2px solid #FBB034;
+    color: #FBB034;
+    color: #FBB034;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106.5%;
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-btn {
+    width: 150px;
+    background-color: #FBB034;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.footer-btn:hover {
+    background-color: #565656;
+    color: white;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.footer-btn2 {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.newselter h1 {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.newselter p {
+    padding: 40px 0px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.205px;
+}
+
+.service a {
+    text-decoration: none;
+    color: #FBB034;
+}
+
+.service p {
+    padding: 15px 0px;
+}
+
+.about a {
+    text-decoration: none;
+    color: #FBB034;
+
+}
+
+.about p {
+    padding: 15px 0px;
+}
+
+.help a {
+    text-decoration: none;
+    color: #FBB034;
+}
+
+.help p {
+    padding: 15px 0px;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.subscribe {
+    padding: 60px 0px;
+}
+
+.condition {
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.term{
+    display: flex;
+    gap: 20px;
+}
+
+/* papular */
+.papular-hair {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.papular {
+    max-width: 440px;
+    text-align: center;
+}
+
+.papular p {
+    color: #FBB034;
+}
+
+.papular h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.5%;
+}
+
+
+.logo {
+    padding: 35px 0px;
+    font-size: 50px;
+    color: #FBB034;
+}
+
+.trend {
+    box-shadow: 2px 2px 8px;
+    text-align: center;
+    min-width: 200px;
+    height: 190px;
+
+
+}
+
+.menu {
+    padding-top: 80px;
+    padding-left: 20px;
+    margin: auto;
+    max-width: 1350px;
+    display: flex;
+    gap: 20px;
+}
+
+.trim {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px 0px;
+}
+
+.tretment h1 {
+    width: 550px;
+    color: #080808;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.5%;
+    
+}
+
+.trim-p {
+    width: 600px;
+}
+
+.tretment p {
+    padding: 10px 0px;
+    color: #ABABAB;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106.5%;
+}
+
+.trim-btn {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #FBB034;
+    border: none;
+}
+
+.tretment {
+    padding: 0px 60px;
+}
+
+.trim-btn:hover {
+    background-color: #565656;
+    color: white;
+}
+
+.font {
+    padding-top: 12px;
+    color: #FBB034;
+
+}
+.person {
+    gap: 10px;
+    display: flex;
+    max-width: 500px;
+
+}
+
+.trend-1 {
+    background-color: #FBB034;
+    color: white;
+
+
+}
+
+.logo-1 {
+    color: white;
+}
+
+
+@media only screen and (min-width:375px) and (max-width: 815px) {
+    .unsplash{
+        display: none;
+    }
+   
+  }
+@media only screen and (max-width: 768px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   .salon-heading{
+    padding: 0;
+    margin: 0;
+   }
+   
+  }
+  @media only screen and (max-width: 400px){
+    
+    #appointment{
+        flex-wrap: wrap;
+       }
+  }
+
+  @media only screen and (max-width: 1279px){
+    
+    .unsplash img{
+        display: none;
+    }
+    
+    
+  }
+  @media only screen and (max-width: 718px){
+    
+    .salon-img-1{
+        display: none;
+    }
+    
+    
+  } 
+@media only screen and (max-width: 1090px){
+    .working{
+        background-color: white;
+    }
+}
+@media only screen and (min-width:360px) and ( max-width: 768px ){
+    .working img{
+        display: none;
+    }
+    .days{
+        padding: 0%;
+    }
+    .online{
+        padding-left: 1px;
+        
+    }
+    .online h1{
+        font-size: 30px;
+        padding: 20px 0px;
+    }
+    .call{
+        margin-bottom: 30px;
+    }
+    .umar{
+        margin-bottom: 20px;
+    }
+    .review{
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .menu{
+        display: none;
+    }
+    .tretment{
+        padding: 0%;
+        margin: 25px 10px;
+        padding: 0px 20px;
+    }
+    .tretment p{
+        width: 360px;
+    }
+    .tretment h1{
+        padding: 0px;
+        font-size: 10px;
+        
+    }
+    .trim-h{
+        font-size: 20px;
+    }
+    .salon{
+        margin-top: 20px;
+    }
+    .salon h1{
+        font-size: 30px;
+    }
+        .best{
+            padding-left: 16px;
+        }
+        .best h1{
+            font-size: 30px;
+        }
+ 
+        .trim{
+            padding: 0px;
+        }
+        .umar-1{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .friday{
+            color: #FBB034;
+        }
+        .trim h1{
+            font-size: 25px;
+            padding: 0px 0px;
+            width: 300px;
+            
+        }   
+        .footer-img{
+            display: none;
+        }  
+        .condition{
+            gap: 60px;
+            padding-left: 20px;
+        }
+        .subscribe{
+            padding-left: 20px;
+        }
+        .nav{
+            display: none;
+        }
+        .chopper{
+            padding: 65px 0px;
+        }
+        .img-136{
+            padding-top: 30px;
+        }
+        .afliate h1{
+            font-size: 25px;
+        }
+        .footer-btn2{
+            padding-left: 20px;
+        }
+       
+    }
